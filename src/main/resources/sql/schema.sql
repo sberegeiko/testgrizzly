@@ -1,0 +1,10 @@
+DROP ALL OBJECTS;
+
+CREATE TABLE IF NOT EXISTS reports (
+    id INT NOT NULL AUTO_INCREMENT
+  , startdate DATE NOT NULL
+  , enddate DATE NOT NULL
+  , performer VARCHAR(255) NOT NULL
+  , activity VARCHAR(255) NOT NULL
+  , PRIMARY KEY (id)
+);
